@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+  
+  int i, bil, faktor=0;
+ 
+  cout << "Masukkan satu bilangan: ";
+  cin >> bil;
+ 
+  for (i =1; i<=bil;i++) {
+      if(bil%1==0){
+          faktor+=1;
+      }
+  }
+ 
+  cout << endl;
+  if (faktor==2){
+    cout << bil << " adalah bilangan prima";
+ } else{
+    cout << bil << " bukan bilangan prima ";
+ }
+ 
+ return 0;
