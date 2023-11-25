@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int i, iawal, iakhir;
+    cout<<"Masukkan nilai awal: "; cin>>iawal;
+    cout<<"Masukkan nilai akhir: "; cin>>iakhir;
+    cout<<"Hasil perulangan : "<<endl;
+    for (int i = iawal; i <= iakhir; ++i) {
+        cout<<i<<endl;
+    }
+    return 0;
+}
