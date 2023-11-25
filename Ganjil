@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+//*??
+int main() {
+    // Write C++ code here
+    int i, iawal, iakhir;
+    cout<<"Masukkan nilai awal: "; cin>>iawal;
+    cout<<"Masukkan nilai akhir: "; cin>>iakhir;
+    cout<<"Hasil perulangan : "<<endl;
+    for (i=iawal ;i<=iakhir ;i++){
+       if (i% 2 !=0) {
+        cout<<i<<endl;
+    }
+    }
+    return 0;
+}
